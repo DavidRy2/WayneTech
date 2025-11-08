@@ -11,16 +11,19 @@ body {
     100% { background-position: 0% 50%; }
 }
 
+
 .form-signin {
     width: 100%;
     max-width: 360px;
 }
+
 
 .form-control {
     border-radius: 10px;
     background-color: #222;
     color: #fff;
     border: 1px solid #333;
+    transition: 0.3s;
 }
 
 .form-control:focus {
@@ -28,11 +31,12 @@ body {
     box-shadow: 0 0 8px #0d6efd60;
 }
 
+
 .btn-primary {
     background: linear-gradient(135deg, #007bff, #6610f2);
     border: none;
     font-weight: 600;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
@@ -40,13 +44,15 @@ body {
     transform: translateY(-2px);
 }
 
+
 label {
     color: #ccc;
 }
 
-img {
+.logo {
     transition: transform 0.4s ease;
 }
-img:hover {
+
+.logo:hover {
     transform: rotate(10deg) scale(1.1);
 }
